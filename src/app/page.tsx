@@ -60,7 +60,7 @@ export default function Home() {
           <Activity className="h-12 w-12 text-green-500" />
         </div>
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl mb-4 neon-text text-green-500">
-          MuFitnessTracker
+          MyFitnessTracker
         </h1>
         <p className="max-w-lg text-lg text-zinc-400 mb-10">
           Track your activity, monitor your progress, and reach your fitness goals with real-time geolocation tracking.

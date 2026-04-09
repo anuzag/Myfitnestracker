@@ -63,7 +63,7 @@ export function Sidebar() {
             <div className="p-2 bg-green-500/10 rounded-lg">
                 <Activity className="h-6 w-6 text-green-500" />
             </div>
-            <h1 className="text-xl font-bold neon-text text-green-500">MuFitness</h1>
+            <h1 className="text-xl font-bold neon-text text-green-500">MyFitness</h1>
           </div>
 
           <nav className="flex-1 space-y-2">

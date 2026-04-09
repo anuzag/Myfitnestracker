@@ -1,4 +1,4 @@
-# MuFitness Tracker
+# MyFitness Tracker
 
 <div align="center">
   <p>A premium, mobile-first, and highly-performant Progressive Web App (PWA) for tracking outdoor activities like running, walking, and biking.</p>
@@ -8,7 +8,7 @@
 
 ## ⚡ Project Overview
 
-MuFitness is built to rival industry leaders like Strava, offering a sleek **Neon Dark Mode** aesthetic powered by deep glassmorphism. It uses real-time Geolocation APIs combined with local device caching and InsForge to provide a seamless tracking experience.
+MyFitness is built to rival industry leaders like Strava, offering a sleek **Neon Dark Mode** aesthetic powered by deep glassmorphism. It uses real-time Geolocation APIs combined with local device caching and InsForge to provide a seamless tracking experience.
 
 ### Key Features
 *   **Real-time Geolocation Tracking**: Immersive full-screen map experience.
@@ -25,12 +25,12 @@ MuFitness is built to rival industry leaders like Strava, offering a sleek **Neo
 ### The Dashboard
 A centralized hub showing a live map preview and lifetime statistics. Focus on the custom glass panes and context-aware messaging.
 
-![MuFitness Dashboard Preview](./public/preview-dashboard.png)
+![MyFitness Dashboard Preview](./public/preview-dashboard.png)
 
 ### The Tracking Experience
 An ergonomic, bottom-heavy design built for active use. Features large interaction targets and high-contrast metrics superimposed over a live tracking map.
 
-![MuFitness Tracking Preview](./public/preview-tracking.png)
+![MyFitness Tracking Preview](./public/preview-tracking.png)
 
 ---
 
@@ -55,7 +55,7 @@ Ensure you have Node.js installed and an active [InsForge](https://insforge.com)
 ### 2. Clone & Install
 ```bash
 git clone <repository_url>
-cd mufitnesstracker
+cd myfitnesstracker
 npm install
 ```
 
