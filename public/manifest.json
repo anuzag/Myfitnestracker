@@ -1,0 +1,16 @@
+{
+  "name": "MyFitnessTracker",
+  "short_name": "Tracker",
+  "description": "Fitness tracker for running and walking.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#39FF14",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ]
+}
