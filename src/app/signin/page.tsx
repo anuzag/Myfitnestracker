@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { insforge } from "@/lib/insforge";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useAuth } from "@/components/providers/auth-provider";
 
 export default function SignInPage() {
   const [email, setEmail] = useState("");
@@ -11,6 +12,7 @@ export default function SignInPage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const { checkAuth } = useAuth();
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,12 +30,8 @@ export default function SignInPage() {
       return;
     }
 
-    if (data?.accessToken) {
-      // Force a reload to update AuthProvider state or just push
-      router.push("/");
-      router.refresh();
-    }
-    setLoading(false);
+    await checkAuth();
+    router.push("/");
   };
 
   return (

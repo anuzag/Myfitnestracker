@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { insforge } from "@/lib/insforge";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useAuth } from "@/components/providers/auth-provider";
 
 export default function SignUpPage() {
   const [email, setEmail] = useState("");
@@ -12,6 +13,7 @@ export default function SignUpPage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const { checkAuth } = useAuth();
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,12 +32,13 @@ export default function SignUpPage() {
       return;
     }
 
-    if (data?.accessToken) {
+    if (data?.user || data?.session) {
+       await checkAuth();
        router.push("/");
     } else {
        setError("Account created. Please check your email to verify.");
+       setLoading(false);
     }
-    setLoading(false);
   };
 
   return (
