@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="./public/icon.png" alt="MyFitness Logo" width="120" />
-  <h1>🏃‍♂️ MyFitness Tracker 🚴‍♀️</h1>
+  <img src="./public/icon.png" alt="My Fitness Tracker Logo" width="120" />
+  <h1>🏃‍♂️ My Fitness Tracker 🚴‍♀️</h1>
   <p><strong>A premium, mobile-first, and highly-performant Progressive Web App (PWA) for tracking your outdoor activities.</strong></p>
 
   <p>
@@ -15,7 +15,7 @@
 
 ## ✨ Overview
 
-**MyFitness** is built to rival industry leaders like Strava, offering a sleek **Neon Dark Mode** aesthetic powered by deep glassmorphism. It uses real-time Geolocation APIs combined with local device caching and InsForge to provide a seamless tracking experience.
+**My Fitness Tracker** is built to rival industry leaders like Strava, offering a sleek **Neon Dark Mode** aesthetic powered by deep glassmorphism. It uses real-time Geolocation APIs combined with local device caching and InsForge to provide a seamless tracking experience.
 
 ## 📸 Sneak Peek
 
@@ -23,14 +23,14 @@
 A centralized hub showing a live map preview and lifetime statistics. Focus on the custom glass panes and context-aware messaging.
 
 <div align="center">
-  <img src="./public/preview-dashboard.png" alt="MyFitness Dashboard Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
+  <img src="./public/preview-dashboard.png" alt="My Fitness Tracker Dashboard Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
 </div>
 
 ### The Tracking Experience
 An ergonomic, bottom-heavy design built for active use. Features large interaction targets and high-contrast metrics superimposed over a live tracking map.
 
 <div align="center">
-  <img src="./public/preview-tracking.png" alt="MyFitness Tracking Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
+  <img src="./public/preview-tracking.png" alt="My Fitness Tracker Tracking Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
 </div>
 
 ---
