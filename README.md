@@ -23,14 +23,14 @@
 A centralized hub showing a live map preview and lifetime statistics. Focus on the custom glass panes and context-aware messaging.
 
 <div align="center">
-  <img src="./public/preview-dashboard.png" alt="My Fitness Tracker Dashboard Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
+  <img src="./public/screenshots/dashboard.png" alt="My Fitness Tracker Dashboard Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
 </div>
 
 ### The Tracking Experience
 An ergonomic, bottom-heavy design built for active use. Features large interaction targets and high-contrast metrics superimposed over a live tracking map.
 
 <div align="center">
-  <img src="./public/preview-tracking.png" alt="My Fitness Tracker Tracking Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
+  <img src="./public/screenshots/tracking.png" alt="My Fitness Tracker Tracking Preview" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,255,0,0.2);" />
 </div>
 
 ---
